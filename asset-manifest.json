@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopatm/static/css/main.b9957fba.css",
+    "main.js": "/shopatm/static/js/main.2d820238.js",
+    "static/js/787.18daa5c5.chunk.js": "/shopatm/static/js/787.18daa5c5.chunk.js",
+    "static/media/genmega-G2500-atm.png": "/shopatm/static/media/genmega-G2500-atm.0aa58fa391fc6f3ded92.png",
+    "static/media/genmega-Onyx-atm.png": "/shopatm/static/media/genmega-Onyx-atm.1cf3fadfaa6a1f2c25e7.png",
+    "static/media/hyosung-1800-atm.png": "/shopatm/static/media/hyosung-1800-atm.52b38a0c5a45318a1583.png",
+    "static/media/hyosung-2700-atm.png": "/shopatm/static/media/hyosung-2700-atm.f3d2c4585f855581e2c8.png",
+    "static/media/genmega-C6000-atm.png": "/shopatm/static/media/genmega-C6000-atm.d9bc324dcb3ba4c0c77e.png",
+    "static/media/hyosung-5200-atm.png": "/shopatm/static/media/hyosung-5200-atm.84d40b2465ba806ada7c.png",
+    "index.html": "/shopatm/index.html",
+    "main.b9957fba.css.map": "/shopatm/static/css/main.b9957fba.css.map",
+    "main.2d820238.js.map": "/shopatm/static/js/main.2d820238.js.map",
+    "787.18daa5c5.chunk.js.map": "/shopatm/static/js/787.18daa5c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9957fba.css",
+    "static/js/main.2d820238.js"
+  ]
+}

@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Footer } from './components/Footer'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Navbar } from './components/Navbar';
+import { Shop } from './pages/shop/shop';
+import { Cart } from './pages/cart/cart';
+import { ShopContextProvider } from './context/shop-context';
+
+//Here the app renders all of the individual components, and also uses ReactRouter to navigate to different pages. Also, Contex provides data that is available to all of the different pages.
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ShopContextProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/shop-atm' element={<Shop />} />
+          <Route path='/' element={<Shop />} />
+          <Route path='/cart' element={<Cart />} />
+        </Routes>
+      </Router>
+      <Footer />
+      </ShopContextProvider>
     </div>
   );
 }

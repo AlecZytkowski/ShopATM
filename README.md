@@ -1,3 +1,10 @@
+# Description
+
+ShopATM allows you to shop around for common ATMs from various manufacturers, and add them to your cart. It also tracks how many of each item you have added to the cart, and provides you with the costs associated.
+
+# Check it out!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

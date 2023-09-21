@@ -1,5 +1,6 @@
 {
   "name": "shopatm",
+  "homepage": "https://aleczytkowski.github.io/shopatm/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
